@@ -42,7 +42,6 @@ ohaping.exe (Windows)
 - packet loss calculation
 - multi-session support (restart system)
 - cross-platform support:
-  - Windows
   - Linux
   - macOS
   - Android (Termux / CxxDroid)
