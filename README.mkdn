@@ -28,8 +28,7 @@ clang++ main.cpp -O2 -std=c++17 -o ohaping
 
 # ▶️ Run
 
-./ohaping   (Linux / macOS)
-ohaping.exe (Windows)
+./ohaping   (Linux / macOS / Android)
 
 ---
 
