@@ -1,0 +1,140 @@
+# 🌐 OhAPinger
+
+![OhAPinger banner](assets/images/README_banner.png)
+
+Welcome to OhAPinger, a lightweight cross-platform network latency testing tool written in C++ (Clang-ready).
+
+OSS project made by [bangkkuser](https://github.com/rebangkkuser)
+
+---
+
+# 📦 Download
+
+👉 [⬇ Latest Release](https://github.com/rebangkkuser/OhAPinger/releases)
+
+---
+
+# 📖 Wiki
+
+👉 [OhAPinger Wiki](https://github.com/rebangkkuser/OhAPinger/wiki)
+
+---
+
+# ⚙️ Build (Clang)
+
+clang++ main.cpp -O2 -std=c++17 -o ohaping
+
+---
+
+# ▶️ Run
+
+./ohaping   (Linux / macOS)
+ohaping.exe (Windows)
+
+---
+
+# 🚀 Features
+
+- ping any host or IP
+- latency per request (ms)
+- live mode (continuous ping stream)
+- min / max / average stats
+- packet loss calculation
+- multi-session support (restart system)
+- cross-platform support:
+  - Windows
+  - Linux
+  - macOS
+  - Android (Termux / CxxDroid)
+
+---
+
+# 🧠 How it works
+
+OhAPinger uses the system ping command and parses its output.
+
+It extracts:
+- time=XX ms
+- timeout responses
+- connection status
+
+No raw sockets are used, keeping it simple, portable, and dependency-free.
+
+---
+
+# 🖥️ Usage
+
+Enter host/IP:
+gitlab.com
+
+Enter number of tests:
+10
+
+---
+
+# 📡 Live Mode
+
+Type:
+live
+
+instead of number of tests.
+
+- continuous ping stream
+- real-time latency output
+- stop with CTRL + C
+
+---
+
+# 📊 Example Output
+
+Test 1: 14.3 ms  
+Test 2: 13.9 ms  
+Test 3: 15.1 ms  
+
+===== STATS =====  
+Min: 13.5 ms  
+Max: 15.9 ms  
+Avg: 14.4 ms  
+Packet loss: 0%  
+=================
+
+---
+
+# 📱 Android Support
+
+Termux:
+pkg install clang
+clang++ main.cpp -O2 -std=c++17 -o ohaping
+
+---
+
+# ⚠️ Requirements
+
+- Clang or G++ compiler
+- system ping command available
+- internet connection
+
+---
+
+# 🔧 Limitations
+
+- depends on system ping output format
+- live mode uses repeated system calls
+- parsing may vary between OS versions
+- no raw ICMP sockets (by design for portability)
+
+---
+
+# 🧪 Roadmap
+
+- ASCII real-time graph
+- multi-host monitoring dashboard
+- jitter detection system
+- export logs (.txt / .csv)
+- network stability score
+
+---
+
+# 💀 Disclaimer
+
+This tool is for educational and diagnostic purposes only.
