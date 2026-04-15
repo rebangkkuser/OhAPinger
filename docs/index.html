@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OhAPinger</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0d1117;
+      color: #e6edf3;
+    }
+
+    header {
+      padding: 40px 20px;
+      text-align: center;
+      background: #161b22;
+      border-bottom: 1px solid #30363d;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 40px;
+    }
+
+    .subtitle {
+      margin-top: 10px;
+      color: #8b949e;
+    }
+
+    a {
+      color: #58a6ff;
+      text-decoration: none;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    .card {
+      background: #161b22;
+      padding: 20px;
+      margin: 20px 0;
+      border-radius: 10px;
+      border: 1px solid #30363d;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 10px 15px;
+      margin-top: 10px;
+      background: #238636;
+      color: white;
+      border-radius: 8px;
+    }
+
+    code {
+      background: #0d1117;
+      padding: 3px 6px;
+      border-radius: 5px;
+      border: 1px solid #30363d;
+    }
+
+    pre {
+      background: #0d1117;
+      padding: 10px;
+      border-radius: 8px;
+      border: 1px solid #30363d;
+      overflow-x: auto;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      color: #8b949e;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>🌐 OhAPinger</h1>
+  <p class="subtitle">Lightweight cross-platform network latency testing tool written in C++ (Clang-ready)</p>
+  <p>OSS project by <a href="https://github.com/rebangkkuser">bangkkuser</a></p>
+
+  <a class="btn" href="https://github.com/rebangkkuser/OhAPinger/releases">
+    ⬇ Download Latest Release
+  </a>
+</header>
+
+<div class="container">
+
+  <div class="card">
+    <h2>📦 Features</h2>
+    <ul>
+      <li>Ping any host or IP</li>
+      <li>Latency per request (ms)</li>
+      <li>Live mode (continuous ping stream)</li>
+      <li>Min / Max / Average stats</li>
+      <li>Packet loss calculation</li>
+      <li>Cross-platform (Windows / Linux / macOS / Android)</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>⚙️ Build (Clang)</h2>
+    <pre><code>clang++ main.cpp -O2 -std=c++17 -o ohaping</code></pre>
+  </div>
+
+  <div class="card">
+    <h2>▶️ Run</h2>
+    <pre><code>./ohaping (Linux / macOS)
+ohaping.exe (Windows)</code></pre>
+  </div>
+
+  <div class="card">
+    <h2>📡 Live Mode</h2>
+    <p>Type <code>live</code> instead of number of tests.</p>
+    <ul>
+      <li>Continuous ping stream</li>
+      <li>Real-time latency output</li>
+      <li>Stop with CTRL + C</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>📖 Links</h2>
+    <p><a href="https://github.com/rebangkkuser/OhAPinger">GitHub Repo</a></p>
+    <p><a href="https://github.com/rebangkkuser/OhAPinger/wiki">Wiki</a></p>
+    <p><a href="https://github.com/rebangkkuser/OhAPinger/releases">Releases</a></p>
+  </div>
+
+</div>
+
+<footer>
+  <p>Made with C++ • Clang-ready • Open Source</p>
+</footer>
+
+</body>
+</html>
