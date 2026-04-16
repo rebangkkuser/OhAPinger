@@ -68,7 +68,7 @@ No raw sockets are used, keeping it simple, portable, and dependency-free.
 # 🖥️ Usage
 
 Enter host/IP:
-gitlab.com
+github.com
 
 Enter number of tests:
 10
