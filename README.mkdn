@@ -22,13 +22,18 @@ OSS project made by [bangkkuser](https://github.com/rebangkkuser)
 
 # ⚙️ Build (Clang)
 
+```bash
 clang++ main.cpp -O2 -std=c++17 -o ohaping
+```
 
 ---
 
 # ▶️ Run
 
-./ohaping   (Linux / macOS / Android)
+```bash
+./ohaping
+```
+(Linux / macOS / Android)
 
 ---
 
@@ -93,7 +98,7 @@ Test 3: 15.1 ms
 Min: 13.5 ms  
 Max: 15.9 ms  
 Avg: 14.4 ms  
-Packet loss: 0%  
+Packet loss: 0%
 =================
 
 ---
@@ -101,8 +106,10 @@ Packet loss: 0%
 # 📱 Android Support
 
 Termux:
+```bash
 pkg install clang
 clang++ main.cpp -O2 -std=c++17 -o ohaping
+```
 
 ---
 
