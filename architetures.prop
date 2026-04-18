@@ -1,0 +1,15 @@
+# you can ignore this file; it only lists the architectures officially supported by OhAPinger. 
+# Value 0:Supported and maintained
+# Value 1: Not supported
+# Value 2: Supported, but no compilations. 
+x86-aosp=2
+x86_64-aosp=2
+arm64-aosp=0
+arm32-aosp=0
+mips-aosp=1
+mips64-aosp=1
+x86-linux=1
+x86_64-linux=1
+arm64-linux=1
+arm32-linux=1
+# build; with the build.sh on /source/build.sh.
