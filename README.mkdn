@@ -25,20 +25,11 @@ OSS project made by [bangkkuser](https://github.com/rebangkkuser)
 ```bash
 cd OhAPinger/source && chmod +x build.sh && ./build.sh
 ```
-This will generate a file called OhAPinger-v$VERSION-$ARCH-UNOFFICIAL-Compiled
+This will generate a file called OhAPinger-v$VERSION-$ARCH-UNOFFICIAL-Compiled.
 Execute it with
 ```bash
 chmod +x OhAPinger-v$VERSION-$ARCH-UNOFFICIAL-Compiled && ./OhAPinger-v$VERSION-$ARCH-UNOFFICIAL-Compiled
 ```
----
-
-# ▶️ Run
-
-```bash
-./ohaping
-```
-(Linux / macOS / Android)
-
 ---
 
 # 🚀 Features
