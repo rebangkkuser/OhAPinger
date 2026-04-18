@@ -143,3 +143,9 @@ clang++ main.cpp -O2 -std=c++17 -o ohaping
 # 💀 Disclaimer
 
 This tool is for educational and diagnostic purposes only.
+
+---
+
+# 😼 Thanks 2
+- [bangkkuser](github.com/rebangkkuser) | Android aarch64 maintainer, Project Creator
+- [// • Kultrixzz_ //](github.com/KultrinhaGihub) | Linux x86_64 maintainer, Project helper (commited 1x on README.mkdn)
