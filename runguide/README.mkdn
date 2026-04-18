@@ -1,0 +1,2 @@
+# Running OhAPinger on some OS
+- Go to your OS folder and read the README.mkdn guide.
