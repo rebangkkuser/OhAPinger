@@ -21,11 +21,11 @@ pkg install git -y
 ```
 Clone source repository with
 ```bash
-git clone https://github.com/rebangkkuser/OhAPinger/source
+git clone https://github.com/rebangkkuser/OhAPinger
 ```
 Enter source with 
 ```bash
-cd source
+cd OhAPinger/source
 ```
 Now, build:
 ```bash
