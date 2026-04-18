@@ -28,4 +28,7 @@ Now, build:
 chmod +x build.sh && ./build.sh
 ```
 Run with
+```bash
 ./OhAPinger-1.0-aarch64-UNOFFICIAL-Compiled
+```
+If your architecture is not aarch64, run the filename that the Build Script generated.
