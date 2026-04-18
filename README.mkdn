@@ -20,12 +20,16 @@ OSS project made by [bangkkuser](https://github.com/rebangkkuser)
 
 ---
 
-# ⚙️ Build (Clang)
+# ⚙️ Build (Shell Script)
 
 ```bash
-clang++ main.cpp -O2 -std=c++17 -o ohaping
+cd OhAPinger/source && chmod +x build.sh && ./build.sh
 ```
-
+This will generate a file called OhAPinger-v$VERSION-$ARCH-UNOFFICIAL-Compiled
+Execute it with
+```bash
+chmod +x OhAPinger-v$VERSION-$ARCH-UNOFFICIAL-Compiled && ./OhAPinger-v$VERSION-$ARCH-UNOFFICIAL-Compiled
+```
 ---
 
 # ▶️ Run
