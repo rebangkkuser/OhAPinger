@@ -148,4 +148,4 @@ This tool is for educational and diagnostic purposes only.
 
 # 😼 Thanks 2
 - [bangkkuser](https://github.com/rebangkkuser) | Android aarch64 maintainer, Project Creator
-- [// • Kultrixzz_ //](https://github.com/KultrinhaGihub) | Linux x86_64 maintainer, Project helper (commited 1x on README.mkdn)
+- [Kultrinhaa_](https://github.com/KultrinhaGihub) | Linux x86_64 maintainer, Project helper (commited 1x on README.mkdn)
