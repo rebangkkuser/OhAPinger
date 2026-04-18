@@ -1,0 +1,33 @@
+# Running OhAPinger on Android
+---
+## Requirements 
+- SDK 24
+- A device that supports C++17 or higher.
+---
+### On CXXDroid
+Download the source code from: /source/*.cpp
+In the CXXDroid app, click the folder icon, choose your method, and select the file. 
+Click the button ▶️ to run the code
+- Note: CXXDroid autocompiles C/C++ code.
+---
+### On Termux
+Install **clang++** with
+```bash
+pkg install clang -y
+```
+Install **git** with
+```bash
+pkg install git -y
+```
+Clone source repository with
+```bash
+git clone https://github.com/rebangkkuser/OhAPinger/source
+```
+Enter source with 
+```bash
+cd source
+```
+Now, build:
+```bash
+chmod +x build.sh && ./build.sh
+```
