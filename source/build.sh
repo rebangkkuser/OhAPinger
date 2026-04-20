@@ -16,6 +16,6 @@ fi
 
 $COMPILER ohapinger-latest.cpp -O2 -std=c++17 -o "$OUT"
 
-chmod +x "$OUT" 2>/dev/null || chmod 755 "$OUT"
+chmod a+x "$OUT" 2>/dev/null || chmod 755 "$OUT" || chmod +x "$OUT"
 
 echo "[OhAPinger] Build completed: $OUT"
