@@ -3,7 +3,7 @@ OUT := OhAPinger-1.0-$(ARCH)-UNOFFICIAL-Compiled
 
 COMPILER := $(shell command -v clang++ 2>/dev/null || command -v g++ 2>/dev/null)
 
-all:
+cakes:
 	@if [ -z "$(COMPILER)" ]; then \
 		echo "[OhAPinger] Error: no compiler available (clang++ or g++)"; \
 		exit 1; \
