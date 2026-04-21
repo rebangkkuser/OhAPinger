@@ -1,0 +1,10 @@
+# Building OhAPinger
+---
+For ***Makefile*** (build.mk)
+```bash
+make -f build.mk -j$(nproc --all) cakes
+```
+For ***ShellScript*** (build.sh)
+```bash
+chmod a+x /path/to/build.sh && /path/to/build.sh
+```
